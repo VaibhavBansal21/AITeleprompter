@@ -1,0 +1,17 @@
+{
+  "lang": "en",
+  "voice": "Rishi",
+  "script": "Hello everyone, today we will talk about climate change. It is the biggest challenge of our time. In the next 10 minutes I will explain three simple steps that every family can take to reduce their carbon footprint.",
+  "scenarios": [
+    { "name": "clean", "spoken": "Hello everyone, today we will talk about climate change. It is the biggest challenge of our time. In the next 10 minutes I will explain three simple steps that every family can take to reduce their carbon footprint.", "expected": 38 },
+    { "name": "fillers", "spoken": "um hello everyone uh today we will talk about uh climate change", "expected": 9 },
+    { "name": "skipped_word", "spoken": "hello everyone today we talk about climate change", "expected": 9 },
+    { "name": "skipped_sentence", "spoken": "hello everyone today we will talk about climate change in the next 10 minutes I will explain", "expected": 25 },
+    { "name": "adlib", "spoken": "hello everyone today by the way I love this topic we will talk about climate change", "expected": 9 },
+    { "name": "paraphrase", "spoken": "hello everyone today we are going to discuss climate change", "expected": 9 },
+    { "name": "repeated_word", "spoken": "hello everyone today the", "expected": 3 },
+    { "name": "numbers", "start": 17, "spoken": "in the next ten minutes I will explain", "expected": 25 },
+    { "name": "silence_mid", "spoken": "hello everyone today we will talk about climate change [[slnc 20000]] it is the biggest challenge of our time", "expected": 17 },
+    { "name": "silence_end", "spoken": "hello everyone today we will talk about climate change [[slnc 90000]]", "expected": 9 }
+  ]
+}

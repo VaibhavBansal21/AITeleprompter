@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Test audio: generated clips (rebuild with `node bench/gen_audio.mjs`) and personal voice recordings
+fixtures/audio/
+
+# Benchmark output (contains transcripts of the recordings)
+bench/results/
+
+# Local clutter
+.DS_Store
+.playwright-mcp/
+node_modules/
